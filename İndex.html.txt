@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMC Endüstriyel Mutfak</title>
+    <style>
+        body { font-family: sans-serif; margin: 0; background: #f4f4f4; color: #333; text-align: center; }
+        .header { background: #1a1a1a; color: #f39c12; padding: 20px; font-size: 24px; font-weight: bold; border-bottom: 5px solid #f39c12; }
+        .container { padding: 15px; max-width: 600px; margin: auto; }
+        .card { background: white; margin-bottom: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); padding: 15px; border: 1px solid #ddd; }
+        .card img { width: 100%; border-radius: 5px; height: auto; }
+        .card h3 { color: #1a1a1a; margin: 10px 0; border-bottom: 2px solid #f39c12; display: inline-block; padding-bottom: 5px; }
+        .contact-btn { display: inline-block; background: #25d366; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 10px; }
+        .footer { background: #1a1a1a; color: white; padding: 20px; font-size: 14px; margin-top: 20px; }
+        .address { font-style: italic; color: #f39c12; margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        EMC ENDÜSTRİYEL MUTFAK <br>
+        <span style="font-size: 14px; color: white;">Kalite ve Güvenin Bayrampaşa'daki Adresi</span>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=600" alt="Mutfak Ekipmanları">
+            <h3>Profesyonel Çözümler</h3>
+            <p>Kıyma makineleri, et testereleri ve sanayi tipi mutfak ekipmanlarında en sağlam modellerle hizmetinizdeyiz.</p>
+        </div>
+
+        <div class="card">
+            <h3>İletişim & Sipariş</h3>
+            <p><strong>Alperen Sökel:</strong> 0537 676 56 77</p>
+            <a href="https://wa.me/905376765677" class="contact-btn">WhatsApp'tan Yazın</a>
+        </div>
+
+        <div class="card">
+            <h3>Mağaza Adresimiz</h3>
+            <p class="address">Maltepe Sanayi Sitesi, Bayrampaşa / İSTANBUL</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        © 2026 EMC Endüstriyel Mutfak - Tüm Hakları Saklıdır.
+    </div>
+
+</body>
+</html>
